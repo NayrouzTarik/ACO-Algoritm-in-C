@@ -2,13 +2,14 @@
 #include <stdlib.h>
 #include <time.h>
 #include <math.h>
+#include <limits.h>
 
 #define MAX_FOURMI 10
 #define MAX_VILLES 10
 #define ALPHA 0.1
 #define RHO 0.5
 #define Q 100.0
-#define MAX 10000000
+#define MAX INT_MAX
 
 typedef struct Graph
 {
